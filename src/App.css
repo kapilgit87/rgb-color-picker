@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 330px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.color-box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+  border-radius: 14px;
+  border: 2px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.rgb-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.slider {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.slider label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.slider input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
